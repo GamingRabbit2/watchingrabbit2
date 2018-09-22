@@ -32,7 +32,7 @@ async def on_message(message):
     elif(message.author.id == os.getenv("Userse")):
         pass
     else:
-        await client.send_message(channel, '{0} wrote {1} in {2}'.format(message.author, message.content, message.server))
+        await client.send_message(channel, '{0} wrote {1} '.format(message.author, message.content))
         
 
 @client.event
