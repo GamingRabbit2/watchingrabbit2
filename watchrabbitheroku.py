@@ -19,18 +19,7 @@ async def on_message(message):
         pass
     elif(message.author.id == os.getenv("Usero")):
         pass
-    elif(message.author.id == os.getenv("Usert")):
-        pass
-    elif(message.author.id == os.getenv("Userth")):
-        pass
-    elif(message.author.id == os.getenv("Userf")):
-        pass
-    elif(message.author.id == os.getenv("Userfi")):
-        pass
-    elif(message.author.id == os.getenv("Usersi")):
-        pass
-    elif(message.author.id == os.getenv("Userse")):
-        pass
+
     else:
         await client.send_message(channel, '{0} wrote {1} '.format(message.author, message.content))
         
